@@ -117,7 +117,7 @@ img {
 .contact .link .item {
     list-style: none;
     text-decoration: none;
-    color: var(--link-text)
+    color: var(--link-text);
 }
 
 .contact .link .item:hover,
@@ -125,6 +125,16 @@ img {
     color: var(--hover-text);
 }
 
+.contact .link .contacts-icon {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    fill: rgba(117, 117, 117, 1);
+}
+
+.contact .link .item:hover .contacts-icon {
+    fill: var(--hover-text);
+}
 
 /* footer */
 
