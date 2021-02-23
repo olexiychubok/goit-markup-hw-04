@@ -61,6 +61,20 @@
     display: none;
 }
 
+.features-icons {
+    display: flex;
+}
+
+.features-icon {
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 244, 250, 1);
+}
+
 .features-items {
     font-family: Roboto, sans-serif;
     font-style: normal;
