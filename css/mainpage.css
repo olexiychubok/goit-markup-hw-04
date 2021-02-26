@@ -9,6 +9,7 @@
 
 .hero {
     background-color: var(--section);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-img.jpg);
 }
 
 .hero-title {
@@ -53,6 +54,8 @@
     color: var(--second-text);
     padding: 10px 32px 10px 32px;
     max-width: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 /* features */
@@ -195,6 +198,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
+    padding: 0px 0px 94px 0px;
     display: flex;
     flex-direction: row;
 }
@@ -202,7 +206,8 @@
 .card {
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 94px 0px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-img {
@@ -294,6 +299,7 @@
     width: 170px;
     height: 90px;
     border: 1px solid var(--social-networks);
+    border-radius: 4px;
     margin-left: 30px;
 }
 
@@ -312,6 +318,7 @@
 
 .customers-items:hover {
     border: 1px solid var(--hover-text);
+    border-radius: 4px;
 }
 
 .customers-link:hover {
